@@ -25,8 +25,6 @@
     End Sub
     Sub Main()
         Console.Title = "LMGNDriveInfo"
-        Console.WriteLine("LMGNDriveInfo by LMGN is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Based on a work at http://github.com/lmgn/lmgndriveinfo.")
-        Console.WriteLine("http://creativecommons.org/licenses/by-nc-sa/4.0/")
         Dim dl = ip("Drive Letter:")
         If My.Computer.FileSystem.DirectoryExists(dl & ":\") Then
             If My.Computer.FileSystem.FileExists(dl & ":\" & "di.ldi") Then
